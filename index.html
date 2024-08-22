@@ -1,11 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment Three</title>
-</head>
-<body>
-    
-</body>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/f6336bf8ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind and daisyui cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "house-primary": "#ABEF5F",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <!-- header section -->
+    <header class="md:container mx-auto">
+        <!-- navbar -->
+      <nav>
+        <div class="navbar p-0 py-2">
+          <div class="navbar-start">
+            <a class="btn btn-ghost"><i class="fa-solid fa-arrow-up rotate-45 w-7 h-7 justify-center iteam-center text-lg text-black bg-house-primary rounded-full"></i></a>
+            <h1 class=" text-3xl lg:text-4xl font-extrabold">Rinterio</h1>
+          </div>
+          <!-- nav links -->
+          <div class="navbar-center hidden lg:flex">
+            <ul
+              class="menu menu-horizontal px-1 text-lg font-medium text-[#737373]"
+            >
+              <li
+                class="hover:text-[#494949] transition-colors duration-300 ease-in-out"
+              >
+                <a>Home</a>
+              </li>
+              <li
+                class="hover:text-[#494949] transition-colors duration-300 ease-in-out"
+              >
+                <a>Services</a>
+              </li>
+              <li
+                class="hover:text-[#494949] transition-colors duration-300 ease-in-out"
+              >
+                <a>Portfolio</a>
+              </li>
+              <li
+                class="hover:text-[#494949] transition-colors duration-300 ease-in-out"
+              >
+                <a>Blogs</a>
+              </li>
+              <li
+                class="hover:text-[#494949] transition-colors duration-300 ease-in-out"
+              >
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <!-- nav buttons -->
+          <div class="navbar-end">
+            <div class="flex iteam-center gap-5 hidden lg:flex">
+              <button>
+                <i
+                  class="fa-solid fa-magnifying-glass bg-gray-1 border broder-color[#E9E9E9] rounded-full p-2"
+                ></i>
+              </button>
+              <button>
+                <i
+                  class="fa-solid fa-cart-shopping bg-gray-1 border broder-color[#E9E9E9] rounded-full p-2"
+                ></i>
+              </button>
+              <button class="btn bg-house-primary rounded-3xl">
+                Book Consult <i class="fa-solid fa-arrow-up rotate-45 w-7 h-7 p-2 text-white bg-black rounded-full"></i>
+              </button>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars text-2xl "></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-3"
+              >
+                <li class="hover:text-[#494949] transition-colors duration-300 ease-in-out"><a>Home</a></li>
+                <li class="hover:text-[#494949] transition-colors duration-300 ease-in-out"><a>Services</a></li>
+                <li class="hover:text-[#494949] transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+                <li class="hover:text-[#494949] transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+                <li class="hover:text-[#494949] transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <main class="md:container mx-auto"></main>
+
+    <!-- footer section -->
+    <footer></footer>
+  </body>
 </html>
