@@ -39,8 +39,8 @@
               "house-primary": "#ABEF5F",
               "house-secondary": "rgba(171, 239, 95, 0.5)",
             },
-            backgroundImage:{
-              paper:"url('./assets/bg.jpg')",
+            backgroundImage: {
+              paper: "url('./assets/bg.jpg')",
             },
           },
         },
@@ -54,12 +54,14 @@
       <nav>
         <div class="navbar p-0 py-2">
           <div class="navbar-start">
-            <a class="btn btn-ghost"
+            <a
+              href="#"
+              class="flex items-center gap-2 text-3xl lg:text-4xl font-extrabold"
               ><i
-                class="fa-solid fa-arrow-up rotate-45 w-7 h-7 justify-center iteam-center text-lg text-black bg-house-primary rounded-full"
+                class="fa-solid fa-arrow-up rotate-45 w-7 text-center text-lg text-black bg-house-primary rounded-full"
               ></i
-            ></a>
-            <h1 class="text-3xl lg:text-4xl font-extrabold">Rinterio</h1>
+              >Rinterio</a
+            >
           </div>
           <!-- nav links -->
           <div class="navbar-center hidden lg:flex">
@@ -106,7 +108,7 @@
                   class="fa-solid fa-cart-shopping bg-gray-1 border broder-color[#E9E9E9] rounded-full p-2"
                 ></i>
               </button>
-              <button class="btn bg-house-primary rounded-3xl">
+              <button class="btn bg-house-primary border-none rounded-3xl">
                 Book Consult
                 <i
                   class="fa-solid fa-arrow-up rotate-45 w-7 h-7 p-2 text-white bg-black rounded-full"
@@ -152,7 +154,6 @@
           </div>
         </div>
       </nav>
-
       <!-- banner section -->
       <div class="text-center">
         <div class="mx-auto">
@@ -169,7 +170,7 @@
             sophistication, featuring weathered wood, sleek metal accents, and
             large windows that flood the space with natural light.
           </p>
-          <button class="btn bg-house-secondary font-bold rounded-3xl">
+          <button class="btn bg-house-secondary border-none font-bold rounded-3xl">
             View Details
             <i
               class="fa-solid fa-arrow-up rotate-45 w-7 h-7 justify-center iteam-center text-lg text-black bg-house-primary rounded-full"
@@ -189,7 +190,7 @@
             <!-- text -->
             <div>
               <button
-                class="bg-white p-3 text-gray-500 font-bold rounded-3xl mb-3 mt-5"
+                class="bg-white p-3 text-gray-500 font-bold border-none rounded-3xl mb-3 mt-5"
               >
                 <i class="fa-solid fa-arrow-right text-sm"></i> About us
               </button>
@@ -240,7 +241,7 @@
           <!-- texts -->
           <div class="text-center mb-10">
             <button
-              class="bg-white p-3 text-gray-500 font-bold rounded-3xl mb-3 mt-5"
+              class="bg-white p-3 text-gray-500 font-bold border-none rounded-3xl mb-3 mt-5"
             >
               <i class="fa-solid fa-arrow-right text-sm"></i> How we works
             </button>
@@ -304,60 +305,137 @@
       <!--Our Latest Portfolio section -->
       <section class="md:container mx-auto md:w-4/5">
         <!-- text -->
-        <div class="text-center mb-10"> 
-          <button class="btn bg-house-secondary font-bold rounded-3xl mb-3">
+        <div class="text-center mb-10">
+          <button class="btn bg-house-secondary border-none font-bold rounded-3xl mb-3">
             <i class="fa-solid fa-arrow-right text-sm"></i> Explore our Latest
             works
           </button>
-          <h1 class="text-4xl font-bold text-[#212121] mb-3">Our Latest Portfolio</h1>
+          <h1 class="text-4xl font-bold text-[#212121] mb-3">
+            Our Latest Portfolio
+          </h1>
           <p class="text-base font-medium text-[#494949] w-3/5 mx-auto">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
         </div>
         <!-- challenge -->
-         <div>
-
-         </div>
+        <div></div>
       </section>
 
       <!-- next project section -->
-       <section class="bg-paper bg-no-repeat bg-cover mt-20 mb-20 mx-auto ">
-         <div class="w-4/5 mx-auto pt-10 pb-10">
+      <section class="bg-paper bg-no-repeat bg-cover mt-20 mb-20 mx-auto">
+        <div class="w-4/5 mx-auto pt-10 pb-10">
           <!-- text -->
           <div class="text-center mb-10">
-            <button class="btn bg-house-secondary font-bold rounded-3xl mb-3">
+            <button class="btn bg-house-secondary border-none font-bold rounded-3xl mb-3">
               <i class="fa-solid fa-arrow-right text-sm"></i> Let’s Connect
             </button>
-            <h1 class="text-4xl font-bold text-[#212121] mb-3">Let’s Discuss Next Project</h1>
-            <p class="text-base font-medium text-[#494949] w-3/5 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            <h1 class="text-4xl font-bold text-[#212121] mb-3">
+              Let’s Discuss Next Project
+            </h1>
+            <p class="text-base font-medium text-[#494949] w-3/5 mx-auto">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents.
+            </p>
           </div>
 
           <!-- input field -->
-           <div class="lg:w-3/5 mx-auto">
-            <div class=" grid grid-cols-1 lg:grid-cols-2 gap-3">
-              <input type="text" name="" id="" placeholder="First Name*" class="bg-white p-3 rounded-3xl text-[#A0A0A0] ">
-              <input type="text" name="" id="" placeholder="Last Name*" class="bg-white p-3 rounded-3xl text-[#A0A0A0] ">
-              <input type="text" name="" id="" placeholder="Phone Number*" class="bg-white p-3 rounded-3xl text-[#A0A0A0] ">
-              <input type="text" name="" id="" placeholder="Email Number*" class="bg-white p-3 rounded-3xl text-[#A0A0A0] ">
-             </div>
-             <br>
-             <div class="mb-3">
-              <textarea name="" id="" cols="30" rows="10" class="bg-white rounded-3xl w-full text-[#A0A0A0] p-3">Write your message here</textarea>
-             </div>
-             <button class="btn bg-house-primary rounded-3xl w-full">
+          <div class="lg:w-3/5 mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="First Name*"
+                class="bg-white p-3 rounded-3xl text-[#A0A0A0]"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Last Name*"
+                class="bg-white p-3 rounded-3xl text-[#A0A0A0]"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Phone Number*"
+                class="bg-white p-3 rounded-3xl text-[#A0A0A0]"
+              />
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Email Number*"
+                class="bg-white p-3 rounded-3xl text-[#A0A0A0]"
+              />
+            </div>
+            <br />
+            <div class="mb-3">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                class="bg-white rounded-3xl w-full text-[#A0A0A0] p-3"
+              >
+Write your message here</textarea
+              >
+            </div>
+            <button class="btn bg-house-primary border-none rounded-3xl w-full">
               Send Mail
               <i
                 class="fa-solid fa-arrow-up rotate-45 w-7 h-7 p-2 text-white bg-black rounded-full"
               ></i>
             </button>
-           </div>
-
-         </div>
-       </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="bg-[#1C1C1C]">
+      <div class="w-4/5 text-center mx-auto pt-10">
+        <!-- text -->
+        <div>
+          <a
+            href="#"
+            class="flex items-center justify-center gap-2 text-3xl lg:text-4xl font-extrabold text-white"
+          >
+            <i
+              class="fa-solid fa-arrow-up rotate-45 w-7 text-lg text-black bg-house-primary rounded-full"
+            ></i>
+            Rinterio</a
+          >
+          <p class="text-base font-medium text-[#737373] w-3/5 mx-auto mt-3">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <!-- links -->
+        <div class="mt-6">
+          <ul
+            class="text-white text-base font-medium md:flex gap-20 justify-center"
+          >
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+          <!-- button -->
+          <button
+            class="btn bg-house-primary border-none rounded-3xl mt-8 mb-10"
+          >
+            Book Consult
+            <i
+              class="fa-solid fa-arrow-up rotate-45 w-7 h-7 p-2 text-white bg-black rounded-full"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
